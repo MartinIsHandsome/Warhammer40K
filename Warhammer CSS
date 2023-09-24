@@ -2,26 +2,44 @@ body {
   display: flex;
   align-items: center;
   height: 100vh;
-  margin: 0;
-  background-color: lightgray; /* Add a background color for visibility */
+  margin: 0; 
+    background-image: url('Images/BackgroundAttemptTwo.jpg'); /* Replace with your image URL */
+    background-size: 100% auto; /* Adjust the dimensions as needed */
+ 
 }
 
 .h3Size{
-
-width: 555  px;
+  text-align: center;
+  
+  display: flex;
+  align-items: center;
+width: 555px;
+color: white;
 }
 
 .paddingPlace{
-  padding-left: 20%;
+  padding-left: 25%;
+  text-align: center;
+  color: white;
+  
 }
 
+.paddingPlaceTwo{
+  padding-left: 25%;
+  width: 500px;
+  
+  text-align: center;
+  color: white;
+}
 .bigClassicFont {
   
-  padding: 35px;
+  padding-left: 25%;
+  width: 600px;
   text-align: center;
   font-size: 90px;
   color: rgb(0, 0, 0);  transition: all 0.7s ease; 
   /* You can remove width, vertical-align, and other properties */
+color: white;
 }
 
 .bigClassicFont:hover {
