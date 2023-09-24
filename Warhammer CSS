@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: lightgray; /* Add a background color for visibility */
+}
+
+.h3Size{
+
+width: 555  px;
+}
+
+.paddingPlace{
+  padding-left: 20%;
+}
+
+.bigClassicFont {
+  
+  padding: 35px;
+  text-align: center;
+  font-size: 90px;
+  color: rgb(0, 0, 0);  transition: all 0.7s ease; 
+  /* You can remove width, vertical-align, and other properties */
+}
+
+.bigClassicFont:hover {
+  font-size: 90px;
+  color: rgb(32, 0, 190);
+  /* You can remove width, vertical-align, and other properties */
+}
+
+
+
+.imageForHeaderSize{
+  width: 400px;
+  height: 400px;
+}
