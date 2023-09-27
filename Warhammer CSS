@@ -3,11 +3,28 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0; 
-   background-image: url('Images/BackgroundAttemptTwo.jpg'); /* Replace with your image URL */
-    background-size: 100% auto; /* Adjust the dimensions as needed */
+   background-color: rgb(68, 76, 76);
  
 }
 
+.navbar {
+  list-style: none; /* Remove default list styles */
+  display: flex; /* Use flexbox */
+  padding: 0; /* Remove default padding */
+  justify-content: center; /* Center the list items horizontally */
+  align-items: center; /* Center the list items vertically */
+}
+
+.navbar li {
+  margin-right: 20px; /* Add spacing between list items (adjust as needed) */
+}
+
+.navbar a {
+  text-decoration: none; /* Remove underlines from links */
+}
+.body-color-changed {
+  background-color: rgb(0, 0, 0) /* Change this to your desired background color */
+}
 .h3Size{
   text-align: center;
   
