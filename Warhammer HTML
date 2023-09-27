@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
+  <header>
+ 
+  </header>
+  
   
   <head>
     <meta charset="UTF-8">
@@ -16,6 +21,20 @@ Warhammer 40000
 
   <body>
 
+
+    <nav>
+      <!-- Unordered List Starts Here -->
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact Us</a></li>
+      </ul>
+
+    </nav>
+
+    
 <div style="display: flex;
 flex-direction: row;">
 
@@ -27,7 +46,7 @@ flex-direction: row;">
 
     <h1 class="bigClassicFont">
       Welcome to the 
-      Dark Future.
+      DARK Future.
     </h1>
 
     <h2 class="paddingPlace">IN THE GRIM DARKNESS OF THE FAR FUTURE, THERE IS ONLY WAR.</h2>
@@ -39,8 +58,7 @@ flex-direction: row;">
 
       <button  id="changeTextButton" class="buttonStyle"> Change size</button>
     </div>
-
-   
+  
 
     <div class="video-container">
 
