@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-  <header>
- 
-  </header>
-  
   
   <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
   <title>
@@ -17,63 +11,43 @@ Warhammer 40000
 
   
 <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
+
+</head>
+
+
+  <section class = "headerss">
+<nav>
+
+  <a href = "index.html">   
+
+    <img class = "resizeTest" src = "Images/BackgroundImageOne.jpg">
+<div>
+  <ul>
+<li>  <a> Main Website </a>   </li>
+
+
+<li>  <a> Order online </a>   </li>
+
+
+<li>  <a> Learn about the lore </a>   </li>
+
+
+<li>  <a> Closest shop around </a>   </li>
+</ul>
+</div>
+
+
+  </a>
+
+</nav>
+
+  </section>
 
   <body>
 
 
-    <nav>
-      <!-- Unordered List Starts Here -->
-      <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact Us</a></li>
-      </ul>
-
-    </nav>
-
     
-<div style="display: flex;
-flex-direction: row;">
-
-    
-  </div>
-
-
-    <div>
-
-    <h1 class="bigClassicFont">
-      Welcome to the 
-      DARK Future.
-    </h1>
-
-    <h2 class="paddingPlace">IN THE GRIM DARKNESS OF THE FAR FUTURE, THERE IS ONLY WAR.</h2>
-
-
-    <h3  id="textToChange" class="paddingPlaceTwo">In the 41st Millennium, warring factions from ancient civilisations and upstart empires fight endless battles across innumerable worlds. 
-      Humanity stands alone, beset on all sides by the heretic, the mutant, and the alien. There is no mercy. There is no respite. Prepare yourself for battle.</h3>
    
-
-      <button  id="changeTextButton" class="buttonStyle"> Change size</button>
-    </div>
-  
-
-    <div class="video-container">
-
-      <video src="Images/And they shall know no fear.mp4" muted  autoplay>
-        Your browser does not support the video tag.
-    </video>
-    </div>
-
-
-    <script src="script.js"></script>
-  </div>
-
-  <!-- <img class ="imageForHeaderSize" 
-    src="Images/BackgroundImageOne.jpg">-->
-
  </body>
 
 </html>
