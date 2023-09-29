@@ -20,26 +20,66 @@ Warhammer 40000
 </head>
 
 
-  <section class = "headerss">
+  <section class = "headerss" id="headerSection">
  <nav>
 
-  <a href = "index.html">  <img src = "Images/BackgroundImageOne.jpg"> </a>
+  <a href = "index.html">  <img  src = "Images/BackgroundImageOne.jpg"> </a>
 
   
 <div class = "random-links">
 
-<ul>
-
-<li>  <a href = ""> Main Website </a>   </li>
+<ul> 
 
 
-<li>  <a href = ""> Order online </a>   </li>
+  <li><a href="" class="main-website-link">Main Website</a></li>
+  <li><a href="" class="order-online-link">Order online</a></li>
+  <li><a href="" class="lore-link">Learn about the lore</a></li>
+  <li><a href="" class="shop-link">Closest shop around</a></li>
+  
+<script>
+  // Get the header section element
+  const headerSection = document.getElementById('headerSection');
 
+  // Get all the navigation links by their respective classes
+  const mainWebsiteLink = document.querySelector('.main-website-link');
+  const orderOnlineLink = document.querySelector('.order-online-link');
+  const loreLink = document.querySelector('.lore-link');
+  const shopLink = document.querySelector('.shop-link');
 
-<li>  <a href = ""> Learn about the lore </a>   </li>
+  // Add event listeners to change the background image for each link
+  mainWebsiteLink.addEventListener('mouseover', function() {
+    headerSection.style.backgroundImage = 'url(Images/BackgroundImageOne.jpg)';
+  });
 
+  mainWebsiteLink.addEventListener('mouseout', function() {
+    headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/BackgroundAttemptTwo.jpg)';
+  });
 
-<li>  <a href = ""> Closest shop around </a>   </li>
+  orderOnlineLink.addEventListener('mouseover', function() {
+    headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/Walli.jpg)';
+  });
+
+  orderOnlineLink.addEventListener('mouseout', function() {
+    headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/BackgroundAttemptTwo.jpg)';
+  });
+
+  loreLink.addEventListener('mouseover', function() {
+    headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/32l.jpg)';
+  });
+
+  loreLink.addEventListener('mouseout', function() {
+    headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/BackgroundAttemptTwo.jpg)';
+  });
+
+  shopLink.addEventListener('mouseover', function() {
+    headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/shop.jpg)';
+  });
+
+  shopLink.addEventListener('mouseout', function() {
+    headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/BackgroundAttemptTwo.jpg)';
+  });
+</script>
+
 
 </ul>
 
@@ -47,7 +87,21 @@ Warhammer 40000
 
 </nav>
 
-  </section>
+<div class = "chilli">
+<h1>
+  Warhammer the best game, movie, book and art you will see!
+</h1>
+
+<p>
+  Set in a grim and dystopian future, it blends science fiction and fantasy elements.
+  Players command armies of futuristic, heavily armed soldiers and massive war machines in epic battles.
+  The game's lore features various factions, including the imperious Space Marines, the xenophobic Orks, and the mystical Eldar.
+  Warhammer 40K is known for its intricate miniatures, detailed world-building, and complex strategic gameplay.
+</p>  
+  <a class = "nz" href = "https://www.youtube.com/watch?v=oYRda7UtuhA&t=919s&ab_channel=GreatStack" target="_blank"> JOIN US NOW!</a>
+</div>
+
+</section>
 
   <body>
 
@@ -57,6 +111,5 @@ Warhammer 40000
  </body>
 
 </html>
-
 
 
