@@ -50,7 +50,9 @@ padding: 25px;
 
 .chilli h1{
  font-size: 65px;
- padding-top: 35px;
+ padding-top: 90px;
+ padding-left: 85px;
+ padding-right: 85px;
 }
 
 .chilli p{
@@ -99,9 +101,8 @@ height: 150px;
 }
 
 nav img{
-width: 150px;  
-height: 150px;
-border-radius: 1000px;
+width: 130px;  
+height: 100px;
 }
 
 nav{
@@ -141,14 +142,34 @@ nav{
   border-radius: 1000px;
   }
   
-  
+  .main-website-link
+  {
+    font-size: 15px;
+  }
   .chilli p{
+    
     font-size: 12px;
     padding: 55px;
    }
 
    .random-links ul li{
+    
     display: block;
+   }
+
+   
+   .random-links ul li a{
+   font-size: 15px;
+  }
+
+   .random-links{
+    position: absolute;
+    background-color: red;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
    }
 }
   
