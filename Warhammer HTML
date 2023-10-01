@@ -11,11 +11,13 @@ Warhammer 40000
 
   
 <link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;700&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -26,65 +28,20 @@ Warhammer 40000
   <a href = "index.html">  <img  src = "Images/logo.png"> </a>
 
   
-<div class = "random-links">
+<div class = "random-links" id="randomId">
 
-<ul> 
-
-
+  <i class="fa-sharp fa-solid fa-xmark" style="color: #000000;"  onclick="hideMenu()"></i>
+  
+  <ul> 
   <li><a href="" class="main-website-link">Main Website</a></li>
   <li><a href="" class="order-online-link">Order online</a></li>
   <li><a href="" class="lore-link">Learn about the lore</a></li>
   <li><a href="" class="shop-link">Closest shop around</a></li>
   
-<script>
-  // Get the header section element
-  const headerSection = document.getElementById('headerSection');
-
-  // Get all the navigation links by their respective classes
-  const mainWebsiteLink = document.querySelector('.main-website-link');
-  const orderOnlineLink = document.querySelector('.order-online-link');
-  const loreLink = document.querySelector('.lore-link');
-  const shopLink = document.querySelector('.shop-link');
-
-  // Add event listeners to change the background image for each link
-  mainWebsiteLink.addEventListener('mouseover', function() {
-    headerSection.style.backgroundImage = 'url(Images/BackgroundImageOne.jpg)';
-  });
-
-  mainWebsiteLink.addEventListener('mouseout', function() {
-    headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/BackgroundAttemptTwo.jpg)';
-  });
-
-  orderOnlineLink.addEventListener('mouseover', function() {
-    headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/Walli.jpg)';
-  });
-
-  orderOnlineLink.addEventListener('mouseout', function() {
-    headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/BackgroundAttemptTwo.jpg)';
-  });
-
-  loreLink.addEventListener('mouseover', function() {
-    headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/32l.jpg)';
-  });
-
-  loreLink.addEventListener('mouseout', function() {
-    headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/BackgroundAttemptTwo.jpg)';
-  });
-
-  shopLink.addEventListener('mouseover', function() {
-    headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/shop.jpg)';
-  });
-
-  shopLink.addEventListener('mouseout', function() {
-    headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/BackgroundAttemptTwo.jpg)';
-  });
-</script>
-
-
 </ul>
 
 </div>
-
+<i class="fa-solid fa-bars"  onclick="showMenu()"></i>
 </nav>
 
 <div class = "chilli">
@@ -106,8 +63,93 @@ Warhammer 40000
   <body>
 
 
+    <p>
+
+      Warhammer is a dark and dystopian universe where humanity's future is plagued by relentless war, corruption, and despair. In this grimdark setting, the Imperium of Man, a crumbling empire, fights against heretical cults, xenos species, and demonic forces across the galaxy. It's a world of brutal conflict, where colossal war machines and genetically enhanced super-soldiers, known as Space Marines, battle for survival.
+
+The Imperium is an oppressive regime where human lives are expendable, and the Inquisition ruthlessly hunts down any sign of heresy. Chaos corrupts minds, turning loyal subjects into nightmarish servants of malevolent gods. Alien races, like the malevolent Tyranids and ancient Eldar, lurk in the shadows, posing existential threats.
+
+Warhammer's grim atmosphere is marked by gothic architecture, industrial decay, and relentless darkness, emphasizing the futility of existence. It's a universe where heroes are rare, and even their victories often come at a terrible cost.
+    </p>
+
     
-   
+
+    
+
+
+
+
+
+
+
+    <script>
+
+
+
+var linksVar = document.getElementById("randomId");
+
+function showMenu(){
+  linksVar.style.right= "0";
+}
+
+
+function hideMenu(){
+  linksVar.style.right= "-250px";
+}
+
+
+
+
+
+
+
+
+
+
+// Get the header section element
+      const headerSection = document.getElementById('headerSection');
+    
+      // Get all the navigation links by their respective classes
+      const mainWebsiteLink = document.querySelector('.main-website-link');
+      const orderOnlineLink = document.querySelector('.order-online-link');
+      const loreLink = document.querySelector('.lore-link');
+      const shopLink = document.querySelector('.shop-link');
+    
+      // Add event listeners to change the background image for each link
+      mainWebsiteLink.addEventListener('mouseover', function() {
+        headerSection.style.backgroundImage = 'url(Images/BackgroundImageOne.jpg)';
+      });
+    
+      mainWebsiteLink.addEventListener('mouseout', function() {
+        headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/BackgroundAttemptTwo.jpg)';
+      });
+    
+      orderOnlineLink.addEventListener('mouseover', function() {
+        headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/Walli.jpg)';
+      });
+    
+      orderOnlineLink.addEventListener('mouseout', function() {
+        headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/BackgroundAttemptTwo.jpg)';
+      });
+    
+      loreLink.addEventListener('mouseover', function() {
+        headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/32l.jpg)';
+      });
+    
+      loreLink.addEventListener('mouseout', function() {
+        headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/BackgroundAttemptTwo.jpg)';
+      });
+    
+      shopLink.addEventListener('mouseover', function() {
+        headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/shop.jpg)';
+      });
+    
+      shopLink.addEventListener('mouseout', function() {
+        headerSection.style.backgroundImage = 'linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(Images/BackgroundAttemptTwo.jpg)';
+      });
+    </script>
+    
+    
  </body>
 
 </html>
