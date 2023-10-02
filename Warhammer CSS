@@ -193,7 +193,7 @@ padding: 15px;
   }
 
    .random-links{
-
+    display: none;
     position: absolute;
     background-color: red;
     height: 100vh;
