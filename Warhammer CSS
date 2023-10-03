@@ -8,11 +8,29 @@
 transition: 0.5s;
 }
 
+.HeaderSplit{
+padding-bottom: 100px;
+}
 
-.main-website-link:hover{
- 
-  }
+.CD{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px; /* Adjust the padding as needed */
+}
 
+.box {
+  flex: 1;
+  padding: 25px; /* Adjust the padding as needed */
+  border: 1px solid #ccc; /* Add borders for separation */
+  text-align: center;
+}
+img {
+  width: 100%; /* Set the width of the images to 30% of the container's width */
+  height: auto;
+  max-width: 100%; /* Ensure images don't exceed their original dimensions */
+  max-height: calc(120% / 1.5); /* Set the maximum height to maintain a 3:2 aspect ratio */
+
+}
 
 .random-links{
 flex:1;
@@ -36,6 +54,13 @@ padding: 25px;
   background-color: rgb(105, 91, 213);
   transition: all 0.3s ease; /* Smooth transition effect */
    
+}
+
+.chilling{
+  font-size: 40px;
+  padding: 10%;
+  text-align: center;
+
 }
 
 .chilli{
@@ -80,6 +105,7 @@ background-color: rgb(67, 47, 216);
   color: white;
   background: transparent;
   transition: 1s;
+  cursor: pointer;
 }
 
 .nz:hover{
