@@ -26,14 +26,18 @@ Warhammer 40000
 
 
   <section class = "headerss" id="headerSection">
- <nav>
+
+
+ <nav class = "HeaderSplit">
+
 
   <a href = "index.html">  <img  src = "Images/logo.png"> </a>
 
   
 <div class = "random-links" id="randomId">
 
-  <i class="fa-sharp fa-solid fa-xmark" style="color: #000000;"  onclick="hideMenu()"></i>
+  <i class="fa-sharp fa-solid fa-xmark" style="color: #000000;"  onclick="hideMenu()">
+  </i>
   
   <ul> 
   <li><a href="" class="main-website-link">Main Website</a></li>
@@ -44,6 +48,8 @@ Warhammer 40000
 </ul>
 
 </div>
+
+
 <i class="fa-solid fa-bars"  onclick="showMenu()"></i>
 </nav>
 
@@ -58,27 +64,51 @@ Warhammer 40000
   The game's lore features various factions, including the imperious Space Marines, the xenophobic Orks, and the mystical Eldar.
   Warhammer 40K is known for its intricate miniatures, detailed world-building, and complex strategic gameplay.
 </p>  
-  <a class = "nz" href = "https://www.youtube.com/watch?v=oYRda7UtuhA&t=919s&ab_channel=GreatStack" target="_blank"> JOIN US NOW!</a>
+
+
+<a class="nz"  target="_blank">JOIN US NOW!</a>
+<audio id="hoverSound">
+    <source src="Images/ClickSite.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
 </div>
 
 </section>
 
   <body>
+    
 
-
-    <p>
-
-      Warhammer is a dark and dystopian universe where humanity's future is plagued by relentless war, corruption, and despair. In this grimdark setting, the Imperium of Man, a crumbling empire, fights against heretical cults, xenos species, and demonic forces across the galaxy. It's a world of brutal conflict, where colossal war machines and genetically enhanced super-soldiers, known as Space Marines, battle for survival.
-
-The Imperium is an oppressive regime where human lives are expendable, and the Inquisition ruthlessly hunts down any sign of heresy. Chaos corrupts minds, turning loyal subjects into nightmarish servants of malevolent gods. Alien races, like the malevolent Tyranids and ancient Eldar, lurk in the shadows, posing existential threats.
-
-Warhammer's grim atmosphere is marked by gothic architecture, industrial decay, and relentless darkness, emphasizing the futility of existence. It's a universe where heroes are rare, and even their victories often come at a terrible cost.
-    </p>
-
+    <div class="CD">
+      <div class="box">
+        <img  src="Images/32l.jpg" alt="Image 1">
+        <p>Be a Space Marine!</p>
+      </div>
+      <div class="box">
+        <img src="Images/shop.jpg" alt="Image 2">
+        <p>Craft Unique weapons!</p>
+      </div>
+      <div class="box">
+        <img src="Images/Walli.jpg" alt="Image 3">
+        <p>Have fun!</p>
+      </div>
+    </div>
     
 
 
     <script>
+
+
+    const link = document.querySelector('.nz');
+    const sound = document.getElementById('hoverSound');
+
+    link.addEventListener('mouseenter', () => {
+        sound.play();
+    });
+
+
+
+
 
 
 
@@ -95,10 +125,6 @@ function showMenu() {
 function hideMenu() {
   linksVar.style.display = 'none'; // Hide the menu by setting 'display' to 'none'
 }
-
-
-
-
 
 
 
