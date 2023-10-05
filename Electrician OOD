@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+<head>
+
+<title>
+  Electrician OOD
+</title>
+
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+
+</head>
+
+
+
+<section class = "backgroundPlace">
+  
+  <nav class = "OneLine">
+
+  <a href = "index.html">  <img  src = "Images/logo.jpg"> </a>
+
+
+  <div class = "buttonsGoLeft">
+
+    <h1>Contact us now!</h1>
+
+    <h1>Where is our working range?</h1>
+
+    <h1>Our shop!</h1>
+
+</div>
+
+</nav>
+
+
+<h1 class = "MainPart">
+  Welcome to [Business Name], your trusted partner in electronic repair and restoration. At [Business Name], we specialize in breathing new life into your beloved gadgets and devices. Our team of skilled technicians is committed to delivering top-notch repair services that not only save you money but also help reduce electronic waste. Whether it's a cracked smartphone screen, a malfunctioning laptop, or any electronic device in need of some TLC, we've got you covered. Experience the difference with [Business Name] – where expertise meets excellence in electronic repair.
+</h1>
+
+</section>
+
+<body>
+
+</body>
+
+
+</html>
