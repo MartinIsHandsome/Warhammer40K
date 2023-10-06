@@ -47,6 +47,23 @@
 
 <body>
 
+
+  <footer>
+    <div class="contact-info">
+        <p>Contact Us:</p>
+        <p>Email: contact@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </div>
+    
+    <ul class="footer-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+</footer>
+
+
 </body>
 
 
